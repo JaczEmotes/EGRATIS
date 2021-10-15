@@ -176,8 +176,8 @@ Ei{
 justify-content: center;
 }
 
-body {
-  background: url(../img/Pics/O3.png);
+F {
+  background: url(../img/Pics/O1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -186,6 +186,23 @@ body {
   font-family: sans-serif;
   margin: 0 auto;
 }
+#contenido{
+  background: url(../img/Pics/O2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+}
+body {
+  background-image: url(../img/Pics/F.png);
+  background-size: contain;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #000000;
+    font-family: sans-serif;
+    margin: 0 auto;
+}
+
 
 p {
   color: #FFF;
@@ -384,12 +401,11 @@ a:hover {
   color: #FF0400;
 }
 .sliderP {
-  width: 1080px;
-  max-width:1080px;
-  padding-right: 0px;
-  margin-left: 0 auto;
-  margin-right: 0 auto;
-  margin-top: 0 auto;
+  width: 720px;
+  max-width:720px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .slider {
   width: 720px;
